@@ -1,5 +1,4 @@
-"# geo_international_ports" 
-
+# geo_international_ports
 
 The geo_international_ports.py script reads bigquery-public-data from BigQuery and generate output to BigQuery table to answer the following questions.
 
@@ -15,7 +14,7 @@ country, port_name, port_latitude and port_longitude only.
 
 
 Steps to generate output
-1. Download the key from your Project IAM 
+1. Download the key from IAM of your personal Google Cloud Project  
 2. Set up the environment variable by running command on Windows: set GOOGLE_APPLICATION_CREDENTIALS=KEY_PATH
 3. Define the project_id, credential_file and the target tables for each of the question in the geo_international_ports.py
 4. run geo_international_ports.py
